@@ -7,6 +7,7 @@ name = "pypi"
 jupyter = "*"
 requests = "*"
 nbconvert = {extras = ["webpdf"], version = "*"}
+pandas = "*"
 
 [dev-packages]
 

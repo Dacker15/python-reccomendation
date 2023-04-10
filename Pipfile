@@ -8,8 +8,11 @@ jupyter = "*"
 requests = "*"
 nbconvert = {extras = ["webpdf"], version = "*"}
 pandas = "*"
+numpy = "*"
+scikit-surprise = "*"
 
 [dev-packages]
+ipykernel = "*"
 
 [requires]
 python_version = "3.9"

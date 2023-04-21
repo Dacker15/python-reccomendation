@@ -10,6 +10,7 @@ nbconvert = {extras = ["webpdf"], version = "*"}
 pandas = "*"
 numpy = "*"
 scikit-surprise = "*"
+matplotlib = "*"
 
 [dev-packages]
 ipykernel = "*"

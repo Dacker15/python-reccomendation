@@ -11,6 +11,7 @@ pandas = "*"
 numpy = "*"
 scikit-surprise = "*"
 matplotlib = "*"
+scipy = "*"
 
 [dev-packages]
 ipykernel = "*"

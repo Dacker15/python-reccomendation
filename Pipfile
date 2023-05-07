@@ -15,6 +15,10 @@ scipy = "*"
 
 [dev-packages]
 ipykernel = "*"
+nbconvert = "*"
 
 [requires]
 python_version = "3.9"
+
+[scripts]
+md = "jupyter nbconvert --to markdown ./notebook.ipynb"

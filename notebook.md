@@ -936,6 +936,8 @@ split_result, cross_result = test_binary_algorithm(algo)
 result_df
 ```
 
+
+
 <div>
     <style scoped>
         .dataframe tbody tr th:only-of-type {
@@ -990,9 +992,12 @@ result_df
 </div>
 
 
+
 ```python
 derived_df
 ```
+
+
 
 <div>
 	<style scoped>
@@ -1040,6 +1045,8 @@ derived_df
       </tbody>
     </table>
 </div>
+
+
 
 ## Conclusioni
 

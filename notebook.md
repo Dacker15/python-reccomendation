@@ -17,7 +17,7 @@ Un sistema di raccomandazione conserva le valutazioni in una matrice, chiamata *
 - $I$ è l'insieme degli item
 
 L'insieme delle celle della matrice $M$, composto da tutte le possibili coppie $(u, i)$ dove $u \in U$ e $i \in I$, contiene le valutazioni degli utenti sugli item.  
-Le valutazioni possono essere definite in diversi spazi, come l'insieme dei numeri reali $R$ o l'insieme dei numeri binari $[0, 1]$.
+Le valutazioni possono essere definite in diversi spazi, come l'insieme dei numeri reali $R$ o l'insieme dei numeri binari $\{0, 1\}$.
 
 I sistemi di raccomandazione possono dividersi in due categorie.  
 La prima categoria contiene i sistemi di raccomandazione **content-based** che utilizzano le informazioni sulle proprietà degli item per generare un profilo di ogni item. Inoltre, mantengono un profilo dell'utente che riflette le sue preferenze in base alle proprietà degli item che ha già valutato in passato. Per suggerire nuovi item all'utente, il sistema calcola la similarità tra il profilo dell'utente e quello degli item presenti ancora da valutare, e suggerisce gli item che presentano la maggiore somiglianza. Le predizioni sugli item vengono quindi effettuate sulla base della corrispondenza tra le proprietà degli item suggeriti e il profilo dell'utente.  
